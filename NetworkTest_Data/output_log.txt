@@ -17,15 +17,49 @@ Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEn
 Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.035 seconds
+- Completed reload, in  0.033 seconds
 Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 2646x1024 at 0,-251
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.507911 ms
+UnloadTime: 3.165075 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 262c -> priority: 1 
-  Thread -> id: 12a8 -> priority: 1 
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:63618}
+  Thread -> id: 2acc -> priority: 1 
+  Thread -> id: 1798 -> priority: 1 
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:58122}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   10.18.15.4279
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.023 seconds
+Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 2646x1024 at 0,-251
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.552673 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2db4 -> priority: 1 
+  Thread -> id: 2db8 -> priority: 1 
