@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scrpits\Billboard.cs" />
     <Compile Include="Assets\Scrpits\Bullet.cs" />
+    <Compile Include="Assets\Scrpits\EnemySpawner.cs" />
     <Compile Include="Assets\Scrpits\Health.cs" />
     <Compile Include="Assets\Scrpits\PlayerController.cs" />
   </ItemGroup>
