@@ -1,24 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
+using System.Collections;
 
-public class Health : MonoBehaviour
-{
+public class Health : NetworkBehaviour {
+
     public const int maxHealth = 100;
+
+    //同步客户端，挂钩函数。
+    [SyncVar(hook = "OnChangeHealth")]
     public int currentHealth = maxHealth;
+
     public RectTransform healthBar;
 
     public void TakeDamage(int amount)
     {
+        if (!isServer)
+            return;
+        
         currentHealth -= amount;
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             currentHealth = 0;
             Debug.Log("Dead!");
         }
-
-        healthBar.sizeDelta = new Vector2(currentHealth, healthBar.sizeDelta.y);
     }
 
+    void OnChangeHealth (int health)
+    {
+        healthBar.sizeDelta = new Vector2(health, healthBar.sizeDelta.y);
+    }
 }
