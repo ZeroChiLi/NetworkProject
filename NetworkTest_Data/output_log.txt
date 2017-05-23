@@ -17,50 +17,15 @@ Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEn
 Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.042 seconds
+- Completed reload, in  0.037 seconds
 Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\Unity_code\NetworkProject\NetworkTest_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 2646x1024 at 0,-251
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.082677 ms
+UnloadTime: 1.902635 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 26c4 -> priority: 1 
-  Thread -> id: 28a8 -> priority: 1 
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+  Thread -> id: 2960 -> priority: 1 
+  Thread -> id: 11e0 -> priority: 1 
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:58859}
