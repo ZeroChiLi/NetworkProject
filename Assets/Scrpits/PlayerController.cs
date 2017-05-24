@@ -7,14 +7,6 @@ public class PlayerController : NetworkBehaviour
     public GameObject playerCamera;
     public Transform bulletSpawn;
 
-    private void Start()
-    {
-        if (isLocalPlayer)
-        {
-            playerCamera.SetActive(true);
-        }
-    }
-
     void Update()
     {
         if (!isLocalPlayer)
@@ -49,5 +41,6 @@ public class PlayerController : NetworkBehaviour
     public override void OnStartLocalPlayer()
     {
         GetComponent<MeshRenderer>().material.color = Color.blue;
+        playerCamera.SetActive(true);
     }
 }
