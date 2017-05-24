@@ -4,7 +4,16 @@ using UnityEngine.Networking;
 public class PlayerController : NetworkBehaviour
 {
     public GameObject bulletPrefab;
+    public GameObject playerCamera;
     public Transform bulletSpawn;
+
+    private void Start()
+    {
+        if (isLocalPlayer)
+        {
+            playerCamera.SetActive(true);
+        }
+    }
 
     void Update()
     {
@@ -19,7 +28,7 @@ public class PlayerController : NetworkBehaviour
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Fire1"))
         {
             CmdFire();
         }
